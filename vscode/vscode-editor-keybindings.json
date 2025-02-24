@@ -1,0 +1,25 @@
+[
+	{
+		"key": "capslock",
+		"command": "extension.vim_escape",
+		"when": "editorTextFocus && vim.active && !inDebugRepl"
+	},
+	{
+		"key": "escape",
+		"command": "-extension.vim_escape",
+		"when": "editorTextFocus && vim.active && !inDebugRepl"
+	},
+    {
+        "command": "turboConsoleLog.displayLogMessage",
+        "key": "ctrl+i"
+    },
+	{
+		"command": "workbench.action.toggleSidebarVisibility",
+		"key": "ctrl+e"
+	},
+	{
+		"command": "workbench.files.action.focusFilesExplorer",
+		"key": "ctrl+e",
+		"when": "editorTextFocus"
+	},
+]

@@ -1,0 +1,109 @@
+{
+	//idk
+	"launch": {},
+	//editor
+	"editor.bracketPairColorization.enabled": false,
+	"editor.autoClosingBrackets": "always",
+	"editor.autoClosingDelete": "always",
+	"editor.inlayHints.fontFamily": "JetBrains Mono",
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.cursorSurroundingLines": 15,
+	"editor.cursorBlinking": "solid",
+	"editor.guides.bracketPairs": true,
+	"editor.fontSize": 15,
+	"editor.linkedEditing": true,
+	"editor.insertSpaces": false,
+	"editor.minimap.autohide": true,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.minimap.enabled": false,
+	"editor.cursorStyle": "block",
+	"editor.colorDecorators": false,
+	"editor.matchBrackets": "near",
+	"editor.scrollbar.horizontalScrollbarSize": 3,
+	"editor.scrollbar.verticalScrollbarSize": 3,
+	"editor.rulers": [
+		80
+	],
+	// editor breadcrumbs
+	"breadcrumbs.enabled": false,
+	// zenmode
+	"zenMode.showTabs": "multiple",
+	"zenMode.centerLayout": false,
+	"zenMode.hideLineNumbers": false,
+	// Emmet
+	"emmet.syntaxProfiles": {
+		"javascript": "jsx"
+	},
+	// Explorer
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"explorer.decorations.badges": false,
+	// watcher
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/*/**": true
+	},
+	// JS imports specific
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"workbench.startupEditor": "none",
+	"workbench.sideBar.location": "right",
+	"workbench.editor.titleScrollbarSizing": "default",
+	"workbench.layoutControl.enabled": false,
+	"workbench.iconTheme": "vs-seti",
+	"workbench.tree.indent": 15,
+	"workbench.activityBar.location": "hidden",
+	"workbench.tree.renderIndentGuides": "none",
+	// extensions
+	"extensions.ignoreRecommendations": true,
+	"extensions.experimental.affinity": {
+		"vscodevim.vim": 1
+	},
+	// terminal
+	"terminal.integrated.fontSize": 15,
+	"terminal.integrated.fontFamily": "JetBrains Mono",
+	// debug console
+	"debug.console.fontFamily": "JetBrains Mono",
+	"debug.console.fontSize": 15,
+	"debug.javascript.terminalOptions": {
+		"skipFiles": [
+			"<node_internals>/**"
+		]
+	},
+	// vim
+	"vim.easymotion": true,
+	"vim.incsearch": true,
+	"vim.useSystemClipboard": true,
+	"vim.useCtrlKeys": true,
+	"vim.hlsearch": false,
+	"vim.leader": "<space>",
+	"vim.foldfix": true,
+	"vim.highlightedyank.enable": true,
+	"vim.highlightedyank.color": "rgba(246, 36, 89, 1)",
+	"vim.highlightedyank.duration": 70,
+	"vim.visualstar": true,
+	"vim.smartRelativeLine": true,
+	"turboConsoleLog.logMessagePrefix": "",
+	"diffEditor.ignoreTrimWhitespace": false,
+	// diffEditor
+	"diffEditor.renderSideBySide": true,
+	// window
+	"window.title": "${rootName}",
+	"window.commandCenter": false,
+	"explorer.confirmPasteNative": false,
+	"diffEditor.maxComputationTime": 0,
+	"editor.inlineSuggest.suppressSuggestions": true,
+	"editor.wordWrap": "off",
+	"[javascript]": { "editor.tabSize": 4, },
+	"[javascriptreact]": { "editor.tabSize": 2 },
+	"[json]": { "editor.tabSize": 2 },
+	"[css]": {
+		"editor.tabSize": 2
+	},
+	"[md]": {
+		"editor.tabSize": 2
+	},
+	"editor.stickyScroll.enabled": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+}
